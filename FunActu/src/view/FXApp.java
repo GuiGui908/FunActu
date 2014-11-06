@@ -1,5 +1,11 @@
 package view;
 
+/* Pour rendre accessible JavaFX avec Eclipse il faut ajouter une règle d'accès !!!!!!
+ * Une fois que c faitt une fois, pas besoin de le refaire en fait XD (c dans le .classPath)
+ * 
+ * Project > Properties > Java Build Path > Libraries > dérouler le JRE > Sélectionner Access rules
+ * Cliquer sur "Edit" (à droite) > Add... > Resolution : Accessible > Rule Pattern : javafx/**  > Ok
+ */
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
